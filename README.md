@@ -1,6 +1,16 @@
 # scrapbox2md
 クリップボード上で，scrapbox記法の文章をmarkdownに変換する
 
+### 動作環境
+
+**python**
+- python3
+
+**ライブラリ**
+- re
+- pyperclip
+
+---
 
 ### 対応するscrapbox記法
 
@@ -35,6 +45,8 @@
 - アイコン
 - リンク
 - タグ
+
+---
 
 ### 使い方
 
