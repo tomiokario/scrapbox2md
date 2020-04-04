@@ -13,7 +13,7 @@
 python scrapbox.py
 ```
 
-※ MacやLinuxの場合，PATHへの追加やunix実行ファイルの作成などにするとより便利に使うことができる
+※ MacやLinuxの場合，PATHへの追加やunix実行ファイルの作成などをするとより便利に使うことができる
 
 ---
 
