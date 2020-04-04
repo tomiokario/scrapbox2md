@@ -1,5 +1,5 @@
 # scrapbox2md
-クリップボード上で，scrapbox記法の文章をmarkdownに変換する
+クリップボード上で，scrapbox記法の文章をmarkdownに変換するスクリプト
 
 ---
 
