@@ -70,3 +70,4 @@ python scrapbox.py
 - リンク
 - タグ
 - 数式(tex)
+- gyazo以外のリンクを用いた画像の挿入
