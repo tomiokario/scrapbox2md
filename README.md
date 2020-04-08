@@ -25,6 +25,8 @@ python scrapbox.py
 
 ※ MacやLinuxの場合，PATHへの追加やunix実行ファイルの作成などをするとより便利に使うことができる
 
+![画像](https://gyazo.com/b18c6fa78148831f3c30a0b159dd9139/raw)
+
 ---
 
 ### 動作環境
