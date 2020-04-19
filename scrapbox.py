@@ -116,7 +116,7 @@ for line in array:
 
         # 現在のインデントが最初以下になったら表記法の終了を判定
         if re.match('^ *', line.replace('\t',' ')).end() <= indent_depth:
-            line = '```\n\n' + normal_conversion(line)
+            line = '\n\n' + normal_conversion(line)
             status = 'normal'
         # 終了しない場合，表の変換処理
         else:
@@ -149,7 +149,7 @@ for line in array:
             # 変換準備
             status = 'table'
             table_line = False
-            line = line.replace('table:','`').replace('\n','`')
+            line = line.replace('table:','')
 
         else:
             # 通常の場合の変換
@@ -170,4 +170,3 @@ pyperclip.copy(output_string)
 print("----------------------------------------------------------------------")
 print("変換が完了しました．")
 print("クリップボードにコピーしました．")
-
